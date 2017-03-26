@@ -25,12 +25,12 @@ do local _ = {
     data = "bot/group.json"
   },
   robot = {
-    987654321,
+    325483697,
     0
   },
   sudo_users = {
-    13456789,
-    0
+    315017219,
+    317576202
   }
 }
 return _
