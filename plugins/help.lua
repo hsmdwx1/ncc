@@ -2,8 +2,8 @@
 local group = load_data('bot/group.json')	
 local addgroup = group[tostring(msg.chat_id)]	
 if matches[1] == 'help' and is_momod(msg) or is_owner(msg) and addgroup then
-pm1 = [[◽️Help Bot Commands:
-🔹!lock links  =>قفل لینک
+pm1 = [[◽️<i>Help Bot Commands:</i>
+🔹<b>!lock links  =>قفل لینک
 🔹!lock edit =>قفل ویرایش پیام 
 🔹!lock fwd  =>قفل فروارد 
 🔹!lock spam  =>قفل اسپم 
@@ -38,7 +38,7 @@ pm1 = [[◽️Help Bot Commands:
 🔺!setrules [text] =>تنظیم قوانین گروه
 🔻!rules =>دریافت قوانین گروه 
 🔺!id =>دریافت شناسه عددی خود و گروه
-🔻!id [reply-username] =>دریافت ایدی عددی فرد
+🔻!id [reply-username] =>دریافت ایدی عددی فرد</b>
 ]]
   tg.sendMessage(msg.chat_id_, 0, 1, pm1, 1, 'md')
 end
